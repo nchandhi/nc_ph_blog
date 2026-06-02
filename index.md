@@ -3,8 +3,6 @@ layout: home
 title: Progressive Hardening
 ---
 
-# Progressive Hardening
-
 The hardest part is not building the MVP. It is what happens when it works.
 
 Progressive Hardening is a practical framework for introducing controls at the same pace that confidence, adoption, and authority grow.
@@ -22,9 +20,3 @@ Progressive Hardening is a practical framework for introducing controls at the s
 5. [Platform Hardening](articles/04-platform-hardening)
 6. [Automation Hardening](articles/05-automation-hardening)
 7. [Governance Hardening](articles/06-governance-hardening)
-
-## Framework
-
-- [Canon](framework/canon)
-- [Principles](framework/principles)
-- [Scorecard](framework/scorecard)

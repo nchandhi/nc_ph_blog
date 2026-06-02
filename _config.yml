@@ -3,3 +3,12 @@ description: Building Beyond the MVP
 theme: minima
 markdown: kramdown
 permalink: pretty
+header_pages:
+	- index.md
+	- articles/00-building-beyond-the-mvp.md
+	- articles/01-data-hardening.md
+	- articles/02-security-hardening.md
+	- articles/03-evaluation-hardening.md
+	- articles/04-platform-hardening.md
+	- articles/05-automation-hardening.md
+	- articles/06-governance-hardening.md
