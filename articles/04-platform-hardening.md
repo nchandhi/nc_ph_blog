@@ -5,46 +5,38 @@ title: Platform Hardening
 
 # Platform Hardening
 
-## Why It Matters
+## Background
 
-When AI adoption grows, reliability becomes a product requirement. Platform hardening is how teams prevent fragile prototypes from becoming critical failures.
+AI MVPs typically run on minimal infrastructure: a single environment, lightweight deployment, and manual monitoring. That setup is appropriate when the user base is small and the cost of downtime is low.
 
-## What Is Platform Hardening?
+As adoption grows, the system quietly takes on production characteristics without inheriting production discipline. Reliability becomes a user expectation long before it becomes an engineering investment.
 
-Platform Hardening is the staged development of resilient infrastructure, observability, deployment controls, and operational guardrails.
+Platform Hardening is how teams build the operational backbone that real adoption requires.
 
-## Crawl
+## What Platform Hardening Means
 
-- Deploy in a controlled, low-scale environment.
-- Track basic uptime, latency, and error rates.
-- Keep rollback simple and manual.
+Platform Hardening is the staged development of resilient infrastructure, observability, deployment controls, and operational guardrails. The work is necessary because reliability quietly becomes a user expectation long before it becomes an engineering investment: as critical workflows depend on the system, downtime costs move from inconvenience to business impact.
 
-## Walk
+## Maturity Stages
 
-- Add standardized deployment pipelines.
-- Introduce environment parity and release gates.
-- Build dashboards and alerting for service health.
+Platforms typically mature along three dimensions as adoption grows. The table below shows what each looks like at Crawl, Walk, and Run.
 
-## Run
+| Dimension | <div style="text-align:center">Crawl</div> | <div style="text-align:center">Walk</div> | <div style="text-align:center">Run</div> |
+|---|---|---|---|
+| Deployment | <ul><li>Single controlled environment</li><li>Manual rollback</li></ul> | <ul><li>Standardized pipelines</li><li>Environment parity and release gates</li></ul> | <ul><li>Progressive delivery</li><li>Automated rollback on signal</li></ul> |
+| Reliability | <ul><li>Best-effort uptime</li><li>Low-scale traffic</li></ul> | <ul><li>Defined targets per service</li><li>Capacity planned for growth</li></ul> | <ul><li>SLOs and error budgets enforced</li><li>Multi-region resilience where needed</li></ul> |
+| Observability | <ul><li>Basic uptime, latency, error rates</li><li>Logs reviewed on incident</li></ul> | <ul><li>Dashboards and alerting on service health</li><li>Traces across key paths</li></ul> | <ul><li>Continuous monitoring with playbooks</li><li>Signals tied to incident response</li></ul> |
 
-- Implement multi-region resilience where needed.
-- Use automated rollback and progressive delivery.
-- Operate with SLOs, error budgets, and incident playbooks.
+## What to Get Right Early
 
-## What Success Changes
+A few investments during the MVP make every later stage easier:
 
-As critical workflows depend on the system, downtime costs move from inconvenience to business impact.
+- A basic telemetry schema so signals are consistent before scale forces it.
+- A deployment ownership model that names who ships and who reverts.
+- Incident severity definitions so the first real outage does not also become the first definition exercise.
 
-## What To Plan During MVP
+It is working when the platform is observable, recoverable, and predictable under real demand.
 
-- Basic telemetry schema
-- Deployment ownership model
-- Incident severity definitions
+## Up Next
 
-## What Good Looks Like
-
-The platform is observable, recoverable, and predictable under real demand.
-
-## Next Article
-
-Automation Hardening: how to safely increase agent autonomy without losing control.
+[Automation Hardening](../05-automation-hardening): how to safely increase agent autonomy without losing control.

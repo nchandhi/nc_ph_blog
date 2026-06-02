@@ -4,6 +4,5 @@ theme: minima
 markdown: kramdown
 permalink: pretty
 header_pages:
-  - articles/00-building-beyond-the-mvp.md
   - categories.md
   - framework/scorecard.md

@@ -5,46 +5,38 @@ title: Data Hardening
 
 # Data Hardening
 
-## Why It Matters
+## Background
 
-When an AI system starts delivering value, pressure to broaden data access increases quickly. Without explicit boundaries, useful copilots become risky copilots.
+Data is the most consequential design choice in any enterprise AI system. It shapes what the system can answer, how accurate it appears, and how much risk it carries.
 
-## What Is Data Hardening?
+Most teams begin with a narrow, curated dataset that fits the MVP scope. This is the right starting point, but it sets expectations that are easy to outgrow once users see value and request broader context.
 
-Data Hardening is the practice of improving data quality, boundary control, and traceability as system usage scales.
+Data Hardening is how teams expand that scope intentionally, rather than by accident.
 
-## Crawl
+## What Data Hardening Means
 
-- Start with a narrow, high-quality data slice.
-- Keep source systems explicit and documented.
-- Manually validate sensitive outputs.
+Data Hardening is the practice of improving data quality, boundary control, and traceability as system usage scales. The work is necessary because success itself creates the pressure: once an AI system delivers value, requests to broaden its data access arrive faster than controls can keep up, and useful copilots quietly become risky ones.
 
-## Walk
+## Maturity Stages
 
-- Introduce data classification and tagging.
-- Add automated validation for freshness and schema drift.
-- Separate approved and experimental data paths.
+Most teams progress along a few common dimensions as data scope grows. The table below shows what each dimension looks like at Crawl, Walk, and Run.
 
-## Run
+| Dimension | <div style="text-align:center">Crawl</div> | <div style="text-align:center">Walk</div> | <div style="text-align:center">Run</div> |
+|---|---|---|---|
+| Data scope | <ul><li>Narrow curated slice</li><li>Manual source review</li></ul> | <ul><li>Approved paths separated</li><li>New sources gated</li></ul> | <ul><li>Policy-driven access</li><li>Role and context scoped</li></ul> |
+| Classification | <ul><li>Sources documented manually</li><li>Owners identified informally</li></ul> | <ul><li>Tags and labels applied</li><li>Sensitivity model adopted</li></ul> | <ul><li>Lineage tracked end-to-end</li><li>Provenance recorded per output</li></ul> |
+| Validation | <ul><li>Outputs reviewed by hand</li><li>Spot checks on samples</li></ul> | <ul><li>Automated freshness checks</li><li>Schema drift alerts</li></ul> | <ul><li>Continuous quality monitoring</li><li>Leakage signal detection</li></ul> |
 
-- Enforce policy-driven access by role and context.
-- Apply lineage and provenance end-to-end.
-- Monitor data quality and leakage signals continuously.
+## What to Get Right Early
 
-## What Success Changes
+A few investments during the MVP make every later stage easier:
 
-Success increases user requests for broader context. Each expansion should pass a boundary review, not just a convenience check.
+- A simple data inventory of what the system can reach and why.
+- A minimal classification model so sensitivity is visible from day one.
+- A clear escalation path for approving new sources.
 
-## What To Plan During MVP
+You will know it is working when the team can answer, without hesitation, what data the model used, why it was allowed, and who approved the change.
 
-- Data inventory template
-- Minimal classification model
-- Escalation path for new source approval
+## Up Next
 
-## What Good Looks Like
-
-Teams can answer: what data the model used, why it was allowed, and who approved changes.
-
-## Next Article
-
-Security Hardening: who can access the system, under what conditions, and with what audit trail.
+[Security Hardening](../02-security-hardening): who can access the system, under what conditions, and with what audit trail.

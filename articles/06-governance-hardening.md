@@ -5,46 +5,40 @@ title: Governance Hardening
 
 # Governance Hardening
 
-## Why It Matters
+## Background
 
-Without governance, successful AI systems become organizational liabilities. Governance hardening ensures authority, accountability, and decision rights stay clear as impact expands.
+In the early stages of an AI initiative, governance is usually informal. A small team makes decisions in the moment, and accountability lives with whoever happened to build the system.
 
-## What Is Governance Hardening?
+That model holds up until the system starts influencing real business outcomes. As scope, integrations, and stakeholders multiply, decisions that used to be casual now have material impact, and the absence of structure becomes a risk in itself.
 
-Governance Hardening is the progression from informal ownership to explicit operating models, controls, and accountability mechanisms.
+Governance Hardening is how teams make ownership, decision rights, and accountability explicit before incidents force the conversation.
 
-## Crawl
+## What Governance Hardening Means
 
-- Name a single accountable owner.
-- Document intended use and known limits.
-- Define a basic escalation path.
+Governance Hardening is the progression from informal ownership to explicit operating models, controls, and accountability mechanisms. The work is necessary because the system eventually affects more teams, more decisions, and more risk domains than any one builder can carry: informal governance stops scaling long before the technology does, and without structure, successful AI systems become organizational liabilities.
 
-## Walk
+## Maturity Stages
 
-- Establish cross-functional review cadence.
-- Clarify ownership for model, data, security, and operations.
-- Add policy checks for major scope changes.
+Governance typically matures along three dimensions as impact expands. The table below shows what each looks like at Crawl, Walk, and Run.
 
-## Run
+| Dimension | <div style="text-align:center">Crawl</div> | <div style="text-align:center">Walk</div> | <div style="text-align:center">Run</div> |
+|---|---|---|---|
+| Ownership | <ul><li>Single accountable owner named</li><li>Intended use and limits documented</li></ul> | <ul><li>Ownership clarified across model, data, security, operations</li><li>Cross-functional review cadence</li></ul> | <ul><li>Formal governance forums and charters</li><li>Ownership recognized in operating model</li></ul> |
+| Decision Rights | <ul><li>Basic escalation path defined</li><li>Scope changes approved informally</li></ul> | <ul><li>Policy checks for major scope changes</li><li>Exception model in use</li></ul> | <ul><li>Decision rights codified by risk tier</li><li>Controls aligned with regulatory and internal standards</li></ul> |
+| Accountability | <ul><li>Decisions remembered, not recorded</li><li>Issues handled ad hoc</li></ul> | <ul><li>Key decisions logged</li><li>Exceptions reviewed periodically</li></ul> | <ul><li>Decisions, exceptions, and remediation tracked end-to-end</li><li>Outcomes audited and reported</li></ul> |
 
-- Operate with formal governance forums and charters.
-- Align controls with regulatory and internal standards.
-- Track decisions, exceptions, and remediation outcomes.
+## What to Get Right Early
 
-## What Success Changes
+A few investments during the MVP make every later stage easier:
 
-The system affects more teams, more decisions, and more risk domains. Informal governance stops scaling long before the technology does.
+- An ownership RACI draft so accountability has a name before it has a crisis.
+- An exception approval model so the first off-pattern request is not also the first precedent.
+- A decision log template so reasoning, not just outcomes, survives turnover.
 
-## What To Plan During MVP
-
-- Ownership RACI draft
-- Exception approval model
-- Decision log template
-
-## What Good Looks Like
-
-Stakeholders can answer who is accountable for what, and how critical decisions are made, documented, and reviewed.
+It is working when stakeholders can answer who is accountable for what, and how critical decisions are made, documented, and reviewed.
 
 ## Series Close
 
 Progressive Hardening is not a fixed checklist. It is an operating philosophy: mature controls in lockstep with real-world adoption, authority, and risk.
+
+The natural next step is to locate the current system on the map. Use the [Scorecard](../../framework/scorecard) to assess each dimension, identify the next hardening move, and decide where to invest first.
