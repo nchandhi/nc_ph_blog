@@ -7,15 +7,18 @@ The hardest part is not building the MVP. It is what happens when it works.
 
 Progressive Hardening is a practical framework for introducing controls at the same pace that confidence, adoption, and authority grow.
 
-## Main Articles
-
-1. [Building Beyond the MVP](#building-beyond-the-mvp)
-2. [Data Hardening](#data-hardening)
-3. [Security Hardening](#security-hardening)
-4. [Evaluation Hardening](#evaluation-hardening)
-5. [Platform Hardening](#platform-hardening)
-6. [Automation Hardening](#automation-hardening)
-7. [Governance Hardening](#governance-hardening)
+<nav class="toc-sticky" aria-label="Main articles">
+	<p class="toc-title">Jump to</p>
+	<div class="toc-links">
+		<a href="#building-beyond-the-mvp">MVP</a>
+		<a href="#data-hardening">Data</a>
+		<a href="#security-hardening">Security</a>
+		<a href="#evaluation-hardening">Evaluation</a>
+		<a href="#platform-hardening">Platform</a>
+		<a href="#automation-hardening">Automation</a>
+		<a href="#governance-hardening">Governance</a>
+	</div>
+</nav>
 
 ---
 
