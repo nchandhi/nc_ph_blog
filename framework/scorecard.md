@@ -1,3 +1,8 @@
+---
+layout: page
+title: Progressive Hardening Scorecard
+---
+
 # Progressive Hardening Scorecard (Starter)
 
 Use this scorecard to assess current maturity by dimension.

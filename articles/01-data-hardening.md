@@ -1,3 +1,8 @@
+---
+layout: page
+title: Data Hardening
+---
+
 # Data Hardening
 
 ## Why It Matters

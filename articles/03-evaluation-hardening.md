@@ -1,3 +1,8 @@
+---
+layout: page
+title: Evaluation Hardening
+---
+
 # Evaluation Hardening
 
 ## Why It Matters

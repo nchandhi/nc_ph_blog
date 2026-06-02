@@ -1,3 +1,8 @@
+---
+layout: page
+title: Security Hardening
+---
+
 # Security Hardening
 
 ## Why It Matters

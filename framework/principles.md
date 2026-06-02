@@ -1,3 +1,8 @@
+---
+layout: page
+title: Progressive Hardening Principles
+---
+
 # Progressive Hardening Principles
 
 ## 1. Stage-Appropriate Controls

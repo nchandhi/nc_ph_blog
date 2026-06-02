@@ -1,3 +1,8 @@
+---
+layout: page
+title: Building Beyond the MVP
+---
+
 # Building Beyond the MVP
 
 ## Why This Article Exists

@@ -1,3 +1,8 @@
+---
+layout: page
+title: Automation Hardening
+---
+
 # Automation Hardening
 
 ## Why It Matters

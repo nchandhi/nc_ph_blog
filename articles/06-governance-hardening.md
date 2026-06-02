@@ -1,3 +1,8 @@
+---
+layout: page
+title: Governance Hardening
+---
+
 # Governance Hardening
 
 ## Why It Matters

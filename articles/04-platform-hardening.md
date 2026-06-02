@@ -1,3 +1,8 @@
+---
+layout: page
+title: Platform Hardening
+---
+
 # Platform Hardening
 
 ## Why It Matters
