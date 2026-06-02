@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Building Beyond the MVP
+title: Start Here
 ---
 
 # Building Beyond the MVP

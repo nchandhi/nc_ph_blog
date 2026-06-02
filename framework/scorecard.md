@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Progressive Hardening Scorecard
+title: Scorecard
 ---
 
 # Progressive Hardening Scorecard (Starter)
