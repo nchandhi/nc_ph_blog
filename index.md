@@ -58,18 +58,6 @@ Each category answers one question that grows sharper as the system scales.
 - **Walk:** several teams, expanded data, role-based access, periodic evaluations.
 - **Run:** enterprise integration, continuous evaluation, formal governance, clear accountability.
 
-## Where Hardening Breaks Down
-
-- Treating MVP assumptions as permanent architecture.
-- Equating launch usage with production readiness.
-- Waiting for incidents before introducing controls.
-
-## Assessing Maturity
-
-Use the scorecard to assess current maturity and identify the next hardening move:
-
-- [Scorecard](framework/scorecard)
-
 ## Up Next
 
 [Data Hardening](articles/01-data-hardening): what your system is allowed to know, and why that boundary changes as adoption grows.

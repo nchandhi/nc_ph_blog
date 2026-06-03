@@ -33,6 +33,12 @@ The scorecard provides a structured way to make that current state explicit: whe
 | [Automation](../articles/05-automation-hardening) |  |  |  |
 | [Governance](../articles/06-governance-hardening) |  |  |  |
 
+## Where Hardening Breaks Down
+
+- Treating MVP assumptions as permanent architecture.
+- Equating launch usage with production readiness.
+- Waiting for incidents before introducing controls.
+
 ## Reading the Pattern
 
 - **Mostly 1s** — the system is still in MVP posture. Prioritize basic guardrails, identity, and observability before broadening scope.
