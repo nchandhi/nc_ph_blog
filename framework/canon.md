@@ -3,8 +3,6 @@ layout: page
 title: Progressive Hardening Canon
 ---
 
-# Progressive Hardening Canon
-
 Use this file as the source of truth for all article drafts, talks, and framework assets.
 
 ## Thesis

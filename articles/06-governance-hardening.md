@@ -3,8 +3,6 @@ layout: page
 title: Governance Hardening
 ---
 
-# Governance Hardening
-
 ## Background
 
 In the early stages of an AI initiative, governance is usually informal. A small team makes decisions in the moment, and accountability lives with whoever happened to build the system.

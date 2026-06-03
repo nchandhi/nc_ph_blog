@@ -3,8 +3,6 @@ layout: page
 title: Security Hardening
 ---
 
-# Security Hardening
-
 ## Background
 
 In early AI pilots, security is usually treated as a perimeter concern: only a small group can reach the system, and that feels like enough.

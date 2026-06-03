@@ -3,8 +3,6 @@ layout: page
 title: Progressive Hardening Principles
 ---
 
-# Progressive Hardening Principles
-
 ## 1. Stage-Appropriate Controls
 Do not apply full enterprise controls before there is enterprise exposure. Add controls as risk and reach increase.
 

@@ -3,8 +3,6 @@ layout: page
 title: Platform Hardening
 ---
 
-# Platform Hardening
-
 ## Background
 
 AI MVPs typically run on minimal infrastructure: a single environment, lightweight deployment, and manual monitoring. That setup is appropriate when the user base is small and the cost of downtime is low.

@@ -3,8 +3,6 @@ layout: page
 title: Data Hardening
 ---
 
-# Data Hardening
-
 ## Background
 
 Data is the most consequential design choice in any enterprise AI system. It shapes what the system can answer, how accurate it appears, and how much risk it carries.

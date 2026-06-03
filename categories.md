@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Categories
+title: Hardening Categories
 ---
-
-# Hardening Categories
 
 Use this page as the single entry point for the category articles.
 

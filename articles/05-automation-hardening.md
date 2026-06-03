@@ -3,8 +3,6 @@ layout: page
 title: Automation Hardening
 ---
 
-# Automation Hardening
-
 ## Background
 
 Most AI systems start as assistants. They suggest, draft, summarize, or recommend, and a human decides what to do next. In that mode, the cost of a mistake is contained.

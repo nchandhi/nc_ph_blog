@@ -3,8 +3,6 @@ layout: page
 title: Evaluation Hardening
 ---
 
-# Evaluation Hardening
-
 ## Background
 
 Early AI systems are typically evaluated by demos, vibes, and small spot checks. That is enough to make a go or no-go decision on the MVP, but not enough to operate the system responsibly.
