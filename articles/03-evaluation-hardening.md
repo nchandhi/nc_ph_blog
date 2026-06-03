@@ -21,11 +21,11 @@ Evaluation Hardening is the progression from ad hoc checks to continuous, scenar
 
 Evaluation typically matures along three dimensions as the system gains real users. The table below shows what each looks like at Crawl, Walk, and Run.
 
-| Dimension | <div style="text-align:center">Crawl</div> | <div style="text-align:center">Walk</div> | <div style="text-align:center">Run</div> |
+| Dimension | Crawl | Walk | Run |
 |---|---|---|---|
-| Coverage | <ul><li>Small golden dataset</li><li>Single use case in scope</li></ul> | <ul><li>Scenario-based test suites</li><li>Metrics segmented by cohort</li></ul> | <ul><li>Coverage tracked per critical path</li><li>Gaps treated as defects</li></ul> |
-| Methodology | <ul><li>Basic quality metrics</li><li>Manual failure review</li></ul> | <ul><li>Latency and cost factored in</li><li>Labeled failure taxonomy</li></ul> | <ul><li>Model and prompt changes tied to measured impact</li><li>Human and automated judges combined</li></ul> |
-| Cadence | <ul><li>Run on demand</li><li>Owned by the build team</li></ul> | <ul><li>Run on each release</li><li>Regressions triaged in review</li></ul> | <ul><li>Continuous evaluation in delivery pipelines</li><li>Threshold-based alerts on regression</li></ul> |
+| Coverage | • Small golden dataset<br>• Single use case in scope | • Scenario-based test suites<br>• Metrics segmented by cohort | • Coverage tracked per critical path<br>• Gaps treated as defects |
+| Methodology | • Basic quality metrics<br>• Manual failure review | • Latency and cost factored in<br>• Labeled failure taxonomy | • Model and prompt changes tied to measured impact<br>• Human and automated judges combined |
+| Cadence | • Run on demand<br>• Owned by the build team | • Run on each release<br>• Regressions triaged in review | • Continuous evaluation in delivery pipelines<br>• Threshold-based alerts on regression |
 
 ## What to Get Right Early
 

@@ -21,11 +21,11 @@ Governance Hardening is the progression from informal ownership to explicit oper
 
 Governance typically matures along three dimensions as impact expands. The table below shows what each looks like at Crawl, Walk, and Run.
 
-| Dimension | <div style="text-align:center">Crawl</div> | <div style="text-align:center">Walk</div> | <div style="text-align:center">Run</div> |
+| Dimension | Crawl | Walk | Run |
 |---|---|---|---|
-| Ownership | <ul><li>Single accountable owner named</li><li>Intended use and limits documented</li></ul> | <ul><li>Ownership clarified across model, data, security, operations</li><li>Cross-functional review cadence</li></ul> | <ul><li>Formal governance forums and charters</li><li>Ownership recognized in operating model</li></ul> |
-| Decision Rights | <ul><li>Basic escalation path defined</li><li>Scope changes approved informally</li></ul> | <ul><li>Policy checks for major scope changes</li><li>Exception model in use</li></ul> | <ul><li>Decision rights codified by risk tier</li><li>Controls aligned with regulatory and internal standards</li></ul> |
-| Accountability | <ul><li>Decisions remembered, not recorded</li><li>Issues handled ad hoc</li></ul> | <ul><li>Key decisions logged</li><li>Exceptions reviewed periodically</li></ul> | <ul><li>Decisions, exceptions, and remediation tracked end-to-end</li><li>Outcomes audited and reported</li></ul> |
+| Ownership | • Single accountable owner named<br>• Intended use and limits documented | • Ownership clarified across model, data, security, operations<br>• Cross-functional review cadence | • Formal governance forums and charters<br>• Ownership recognized in operating model |
+| Decision Rights | • Basic escalation path defined<br>• Scope changes approved informally | • Policy checks for major scope changes<br>• Exception model in use | • Decision rights codified by risk tier<br>• Controls aligned with regulatory and internal standards |
+| Accountability | • Decisions remembered, not recorded<br>• Issues handled ad hoc | • Key decisions logged<br>• Exceptions reviewed periodically | • Decisions, exceptions, and remediation tracked end-to-end<br>• Outcomes audited and reported |
 
 ## What to Get Right Early
 

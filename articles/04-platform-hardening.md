@@ -21,11 +21,11 @@ Platform Hardening is the staged development of resilient infrastructure, observ
 
 Platforms typically mature along three dimensions as adoption grows. The table below shows what each looks like at Crawl, Walk, and Run.
 
-| Dimension | <div style="text-align:center">Crawl</div> | <div style="text-align:center">Walk</div> | <div style="text-align:center">Run</div> |
+| Dimension | Crawl | Walk | Run |
 |---|---|---|---|
-| Deployment | <ul><li>Single controlled environment</li><li>Manual rollback</li></ul> | <ul><li>Standardized pipelines</li><li>Environment parity and release gates</li></ul> | <ul><li>Progressive delivery</li><li>Automated rollback on signal</li></ul> |
-| Reliability | <ul><li>Best-effort uptime</li><li>Low-scale traffic</li></ul> | <ul><li>Defined targets per service</li><li>Capacity planned for growth</li></ul> | <ul><li>SLOs and error budgets enforced</li><li>Multi-region resilience where needed</li></ul> |
-| Observability | <ul><li>Basic uptime, latency, error rates</li><li>Logs reviewed on incident</li></ul> | <ul><li>Dashboards and alerting on service health</li><li>Traces across key paths</li></ul> | <ul><li>Continuous monitoring with playbooks</li><li>Signals tied to incident response</li></ul> |
+| Deployment | • Single controlled environment<br>• Manual rollback | • Standardized pipelines<br>• Environment parity and release gates | • Progressive delivery<br>• Automated rollback on signal |
+| Reliability | • Best-effort uptime<br>• Low-scale traffic | • Defined targets per service<br>• Capacity planned for growth | • SLOs and error budgets enforced<br>• Multi-region resilience where needed |
+| Observability | • Basic uptime, latency, error rates<br>• Logs reviewed on incident | • Dashboards and alerting on service health<br>• Traces across key paths | • Continuous monitoring with playbooks<br>• Signals tied to incident response |
 
 ## What to Get Right Early
 

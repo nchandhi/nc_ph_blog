@@ -21,11 +21,11 @@ Data Hardening is the practice of improving data quality, boundary control, and 
 
 Most teams progress along a few common dimensions as data scope grows. The table below shows what each dimension looks like at Crawl, Walk, and Run.
 
-| Dimension | <div style="text-align:center">Crawl</div> | <div style="text-align:center">Walk</div> | <div style="text-align:center">Run</div> |
+| Dimension | Crawl | Walk | Run |
 |---|---|---|---|
-| Data scope | <ul><li>Narrow curated slice</li><li>Manual source review</li></ul> | <ul><li>Approved paths separated</li><li>New sources gated</li></ul> | <ul><li>Policy-driven access</li><li>Role and context scoped</li></ul> |
-| Classification | <ul><li>Sources documented manually</li><li>Owners identified informally</li></ul> | <ul><li>Tags and labels applied</li><li>Sensitivity model adopted</li></ul> | <ul><li>Lineage tracked end-to-end</li><li>Provenance recorded per output</li></ul> |
-| Validation | <ul><li>Outputs reviewed by hand</li><li>Spot checks on samples</li></ul> | <ul><li>Automated freshness checks</li><li>Schema drift alerts</li></ul> | <ul><li>Continuous quality monitoring</li><li>Leakage signal detection</li></ul> |
+| Data scope | • Narrow curated slice<br>• Manual source review | • Approved paths separated<br>• New sources gated | • Policy-driven access<br>• Role and context scoped |
+| Classification | • Sources documented manually<br>• Owners identified informally | • Tags and labels applied<br>• Sensitivity model adopted | • Lineage tracked end-to-end<br>• Provenance recorded per output |
+| Validation | • Outputs reviewed by hand<br>• Spot checks on samples | • Automated freshness checks<br>• Schema drift alerts | • Continuous quality monitoring<br>• Leakage signal detection |
 
 ## What to Get Right Early
 

@@ -21,11 +21,11 @@ Automation Hardening is the deliberate escalation of constraints, approvals, and
 
 Automation typically matures along three dimensions as autonomy expands. The table below shows what each looks like at Crawl, Walk, and Run.
 
-| Dimension | <div style="text-align:center">Crawl</div> | <div style="text-align:center">Walk</div> | <div style="text-align:center">Run</div> |
+| Dimension | Crawl | Walk | Run |
 |---|---|---|---|
-| Scope | <ul><li>Low-risk, reversible tasks</li><li>Suggestions, not actions</li></ul> | <ul><li>Tasks tiered by risk</li><li>Auto-action behind confidence thresholds</li></ul> | <ul><li>Least-privilege action scopes</li><li>Sensitive actions formally approved</li></ul> |
-| Guardrails | <ul><li>Human in the loop for high impact</li><li>Decision context recorded per action</li></ul> | <ul><li>Policy checks before execution</li><li>Fail-safe behaviors and bounded retries</li></ul> | <ul><li>Policy-as-code enforcement</li><li>Reversal paths designed in</li></ul> |
-| Oversight | <ul><li>Manual sampling of outcomes</li><li>Issues raised informally</li></ul> | <ul><li>Action quality tracked over time</li><li>Exception rates reviewed</li></ul> | <ul><li>Continuous monitoring of drift and exceptions</li><li>Behavior pausable or rollback-able quickly</li></ul> |
+| Scope | • Low-risk, reversible tasks<br>• Suggestions, not actions | • Tasks tiered by risk<br>• Auto-action behind confidence thresholds | • Least-privilege action scopes<br>• Sensitive actions formally approved |
+| Guardrails | • Human in the loop for high impact<br>• Decision context recorded per action | • Policy checks before execution<br>• Fail-safe behaviors and bounded retries | • Policy-as-code enforcement<br>• Reversal paths designed in |
+| Oversight | • Manual sampling of outcomes<br>• Issues raised informally | • Action quality tracked over time<br>• Exception rates reviewed | • Continuous monitoring of drift and exceptions<br>• Behavior pausable or rollback-able quickly |
 
 ## What to Get Right Early
 

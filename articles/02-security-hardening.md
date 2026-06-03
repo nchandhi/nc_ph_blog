@@ -21,11 +21,11 @@ Security Hardening is the staged introduction of identity, access, isolation, an
 
 Security typically matures along three dimensions as authority expands. The table below shows what each looks like at Crawl, Walk, and Run.
 
-| Dimension | <div style="text-align:center">Crawl</div> | <div style="text-align:center">Walk</div> | <div style="text-align:center">Run</div> |
+| Dimension | Crawl | Walk | Run |
 |---|---|---|---|
-| Identity | <ul><li>Authenticated access only</li><li>Small approved user group</li></ul> | <ul><li>Role-based access controls</li><li>Group membership reviewed</li></ul> | <ul><li>Conditional access enforced</li><li>Device posture required</li></ul> |
-| Authorization | <ul><li>Single shared scope</li><li>Manual approval for new use</li></ul> | <ul><li>Environments and data paths segmented</li><li>Threat modeling on major changes</li></ul> | <ul><li>Policy-as-code for access</li><li>Least-privilege enforced by default</li></ul> |
-| Audit | <ul><li>Prompts and responses logged</li><li>Access events captured</li></ul> | <ul><li>Centralized log review</li><li>Anomaly alerts on key actions</li></ul> | <ul><li>Continuous detection and response</li><li>Incident playbooks rehearsed</li></ul> |
+| Identity | • Authenticated access only<br>• Small approved user group | • Role-based access controls<br>• Group membership reviewed | • Conditional access enforced<br>• Device posture required |
+| Authorization | • Single shared scope<br>• Manual approval for new use | • Environments and data paths segmented<br>• Threat modeling on major changes | • Policy-as-code for access<br>• Least-privilege enforced by default |
+| Audit | • Prompts and responses logged<br>• Access events captured | • Centralized log review<br>• Anomaly alerts on key actions | • Continuous detection and response<br>• Incident playbooks rehearsed |
 
 ## What to Get Right Early
 
