@@ -19,17 +19,13 @@ The challenge shows up shortly after the MVP starts working. Adoption expands, d
 
 This is the inflection point. The question shifts from "can we build it?" to "can we operate it safely as it grows?"
 
----
-
-<p align="center"><strong><em>The hardest part isn't building the MVP. It's what happens when it works.</em></strong></p>
-
----
+The hardest part isn't building the MVP. It's what happens when it works!
 
 ## Progressive Hardening
 
 Progressive Hardening introduces controls at the same pace that confidence, adoption, and authority grow. It is not a one-time checklist. It is a maturity model that moves through crawl, walk, and run stages based on real exposure and risk.
 
-> **Hardening is contextual.** What hardening looks like is not the same for every customer. A regulated bank, a global retailer, and a fast-moving startup will weight these categories differently and progress through the stages at different speeds. The framework is meant to be a shared vocabulary and a sequence to reason with, not a prescription to copy.
+The hardeing journey doesnt look the same for every customer. A regulated bank, a global retailer, and a fast-moving startup will weight these categories differently and progress through the stages at different speeds. Use it as a starting point, not a rigid ruleset.
 
 ## How It Usually Unfolds
 
