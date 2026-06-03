@@ -26,12 +26,12 @@ The scorecard provides a structured way to make that current state explicit: whe
 
 | Dimension | Current Score | Evidence | Next Hardening Move |
 |---|---:|---|---|
-| [Data](../articles/01-data-hardening) |  |  |  |
-| [Security](../articles/02-security-hardening) |  |  |  |
-| [Evaluation](../articles/03-evaluation-hardening) |  |  |  |
-| [Platform](../articles/04-platform-hardening) |  |  |  |
-| [Automation](../articles/05-automation-hardening) |  |  |  |
-| [Governance](../articles/06-governance-hardening) |  |  |  |
+| [Data](../../articles/01-data-hardening) |  |  |  |
+| [Security](../../articles/02-security-hardening) |  |  |  |
+| [Evaluation](../../articles/03-evaluation-hardening) |  |  |  |
+| [Platform](../../articles/04-platform-hardening) |  |  |  |
+| [Automation](../../articles/05-automation-hardening) |  |  |  |
+| [Governance](../../articles/06-governance-hardening) |  |  |  |
 
 ## Where Hardening Breaks Down
 
