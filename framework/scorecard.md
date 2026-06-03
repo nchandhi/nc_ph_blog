@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Progressive Hardening Scorecard
+title: Scorecard
 ---
 
 Understanding the framework is necessary, but not sufficient. Every system carries its own history, scope, and risk profile, and the same dimension can sit at very different stages depending on how the system has grown.
